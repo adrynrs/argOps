@@ -5,8 +5,8 @@ metadata:
   namespace: default
   labels:
     app: podinfo
-speec:
-type : ClusterIP
+spec:
+  type : ClusterIP
   selector:
     app: podinfo
   ports:
